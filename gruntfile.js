@@ -7,17 +7,26 @@ module.exports = function(grunt) {
       files: [
           "gruntfile.js",
           "index.js",
-          "linkparser.js"
+          "test/*.js"
       ]
+    },
+    mochaTest: {
+        test: {
+        options: {
+          reporter: "spec",
+          timeout: "20000"
+        },
+        src: [ "./test/test.js" ]
+      }
     }
   });
 
   // Load the plugin that provides the "uglify" task.
     grunt.loadNpmTasks('grunt-contrib-jshint');
-    //grunt.loadNpmTasks('grunt-mocha-test');
+    grunt.loadNpmTasks('grunt-mocha-test');
 
 
   // Default task(s).
-    grunt.registerTask('default', ['jshint']);
+    grunt.registerTask('default', ['jshint', 'mochaTest']);
 
 };

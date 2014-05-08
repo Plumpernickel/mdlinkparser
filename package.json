@@ -1,18 +1,16 @@
 {
-    "name": "ygmdlinkparser",
-    "version": "0.1.0",
-    "description": "A tool useable for gathering/fetching links from incoming markdown file string arguments.",
-
-    "devDependencies": {
-        "mocha": "1.18.2",
-        "bower": "1.3.3",
-        "grunt": "0.4.4",
-        "grunt-contrib-jshint": "0.10.0"
-    },
-
-    "repository" : {
-        "type" : "git",
-        "url" : "https://github.com/yoavgurevich/mdlinkparser"
-    }
+  "name": "ygmdlinkparser",
+  "version": "0.1.0",
+  "description": "A tool useable for gathering/fetching links from incoming markdown file string arguments.",
+  "devDependencies": {
+    "bower": "1.3.3",
+    "grunt": "0.4.4",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-mocha-test": "^0.10.2",
+    "mocha": "1.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoavgurevich/mdlinkparser"
+  }
 }
-
