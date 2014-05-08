@@ -1,4 +1,5 @@
 var fs = require('fs');
+var parse = require('./linkparser.js');
 
 var data = process.argv[2];
 
@@ -8,5 +9,5 @@ fs.readFile(data, 'utf8', function(err, data){
     if(!data)
         throw "no file argument given";
     if(data.match(/^.+[\.md|\.markdown]$/))
-        var linkArr = (data.split(''));
+        parse(data);
 });

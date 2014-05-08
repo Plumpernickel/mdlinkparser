@@ -1,3 +1,3 @@
-function( mdString ){
-    var linkList = msString.split(/\[.+\]\(.+\/);
-}
+module.exports = function( mdString ){
+    return mdString.match(/\[([^\]]+)\]\(([^)]+)\)/g);
+};
