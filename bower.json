@@ -1,0 +1,21 @@
+{
+  "name": "mdlinkparser",
+  "main": "index.js",
+  "version": "0.1.1",
+  "homepage": "https://github.com/yoavgurevich/mdlinkparser",
+  "authors": [
+    "yoavgurevich <ygurevich@ymail.com>"
+  ],
+  "description": "A tool useable for gathering/fetching links from incoming markdown file string arguments.",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
