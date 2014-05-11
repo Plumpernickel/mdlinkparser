@@ -1,6 +1,6 @@
 {
   "name": "ygmdlinkparser",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A tool useable for gathering/fetching links from incoming markdown file string arguments.",
   "dependencies": {
     "amdefine": "0.1.0"
